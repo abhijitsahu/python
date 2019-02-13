@@ -1,0 +1,259 @@
+[abhijit@localhost bikeshare-2]$ python3 bikeshare_2.py 
+Hello! Let's explore some US bikeshare data!
+Enter city(string): chicago
+Enter Month(string):all
+Enter day of week(string):all
+----------------------------------------
+
+Calculating The Most Frequent Times of Travel...
+
+most common month :  6
+most common day_of_week :  Tuesday
+most common start hour :  17
+
+This took 0.029230833053588867 seconds.
+----------------------------------------
+
+Calculating The Most Popular Stations and Trip...
+
+most commonly used start station :  Streeter Dr & Grand Ave
+most commonly used end station :  Streeter Dr & Grand Ave
+most frequent combination stations:  Lake Shore Dr & Monroe St <==> Streeter Dr & Grand Ave
+
+This took 0.1797940731048584 seconds.
+----------------------------------------
+
+Calculating Trip Duration...
+
+total travel time :  280871787
+mean travel time :  936.23929
+
+This took 0.0008208751678466797 seconds.
+----------------------------------------
+
+Calculating User Stats...
+
+*************************
+counts of user types : 
+*************************
+Subscriber    238889
+Customer       61110
+Dependent          1
+Name: User Type, dtype: int64
+*************************
+counts of gender : 
+*************************
+Male      181190
+Female     57758
+Name: Gender, dtype: int64
+*************************
+earliest year of birth :  1899.0
+most recent year of birth :  2016.0
+most common year of birth :  1989.0
+*************************
+
+This took 0.11121296882629395 seconds.
+----------------------------------------
+
+Would you like to restart? Enter yes or no.
+
+[abhijit@localhost bikeshare-2]$ python3 bikeshare_2.py 
+Hello! Let's explore some US bikeshare data!
+Enter city(string): chicago
+Enter Month(string):Tuesday
+ ERROR: Invalid input:
+ Please enter "January","February","March" ... OR "June"
+Enter Month(string):June
+Enter day of week(string):Wednesday
+----------------------------------------
+
+Calculating The Most Frequent Times of Travel...
+
+most common month :  6
+most common day_of_week :  Wednesday
+most common start hour :  17
+
+This took 0.002420186996459961 seconds.
+----------------------------------------
+
+Calculating The Most Popular Stations and Trip...
+
+most commonly used start station :  Clinton St & Washington Blvd
+most commonly used end station :  Streeter Dr & Grand Ave
+most frequent combination stations:  Lake Shore Dr & Monroe St <==> Streeter Dr & Grand Ave
+
+This took 0.026201963424682617 seconds.
+----------------------------------------
+
+Calculating Trip Duration...
+
+total travel time :  10367400
+mean travel time :  880.9074687738976
+
+This took 0.000507354736328125 seconds.
+----------------------------------------
+
+Calculating User Stats...
+
+*************************
+counts of user types : 
+*************************
+Subscriber    10032
+Customer       1737
+Name: User Type, dtype: int64
+*************************
+counts of gender : 
+*************************
+Male      7443
+Female    2589
+Name: Gender, dtype: int64
+*************************
+earliest year of birth :  1900.0
+most recent year of birth :  2001.0
+most common year of birth :  1989.0
+*************************
+
+This took 0.008466005325317383 seconds.
+----------------------------------------
+
+Would you like to restart? Enter yes or no.
+yes
+Hello! Let's explore some US bikeshare data!
+Enter city(string): 
+ ERROR: Invalid input:
+ Please enter "chicago", "new york city" OR "washington"
+Enter city(string): washington
+Enter Month(string):february
+Enter day of week(string):Monday
+----------------------------------------
+
+Calculating The Most Frequent Times of Travel...
+
+most common month :  2
+most common day_of_week :  Monday
+most common start hour :  17
+
+This took 0.0016815662384033203 seconds.
+----------------------------------------
+
+Calculating The Most Popular Stations and Trip...
+
+most commonly used start station :  Columbus Circle / Union Station
+most commonly used end station :  Columbus Circle / Union Station
+most frequent combination stations:  Columbus Circle / Union Station <==> 8th & F St NE
+
+This took 0.020447969436645508 seconds.
+----------------------------------------
+
+Calculating Trip Duration...
+
+total travel time :  5904543.22499999
+mean travel time :  1025.2723085605123
+
+This took 0.0003478527069091797 seconds.
+----------------------------------------
+
+Calculating User Stats...
+
+*************************
+counts of user types : 
+*************************
+Subscriber    4645
+Customer      1114
+Name: User Type, dtype: int64
+
+Would you like to restart? Enter yes or no.
+yes
+Hello! Let's explore some US bikeshare data!
+Enter city(string): 
+ ERROR: Invalid input:
+ Please enter "chicago", "new york city" OR "washington"
+Enter city(string): washington
+Enter Month(string):friday
+ ERROR: Invalid input:
+ Please enter "January","February","March" ... OR "June"
+Enter Month(string):April
+Enter day of week(string):all
+----------------------------------------
+
+Calculating The Most Frequent Times of Travel...
+
+most common month :  4
+most common day_of_week :  Sunday
+most common start hour :  5
+
+This took 0.00717473030090332 seconds.
+----------------------------------------
+
+Calculating The Most Popular Stations and Trip...
+
+most commonly used start station :  Jefferson Dr & 14th St SW
+most commonly used end station :  Lincoln Memorial
+most frequent combination stations:  Jefferson Dr & 14th St SW <==> Jefferson Dr & 14th St SW
+
+This took 0.055663108825683594 seconds.
+----------------------------------------
+
+Calculating Trip Duration...
+
+total travel time :  88981823.92500114
+mean travel time :  1420.9808994730301
+
+This took 0.0004661083221435547 seconds.
+----------------------------------------
+
+Calculating User Stats...
+
+*************************
+counts of user types : 
+*************************
+Subscriber    41442
+Customer      21178
+Name: User Type, dtype: int64
+
+Would you like to restart? Enter yes or no.
+yes
+Hello! Let's explore some US bikeshare data!
+Enter city(string): washington
+Enter Month(string):all
+Enter day of week(string):all
+----------------------------------------
+
+Calculating The Most Frequent Times of Travel...
+
+most common month :  6
+most common day_of_week :  Wednesday
+most common start hour :  8
+
+This took 0.03057575225830078 seconds.
+----------------------------------------
+
+Calculating The Most Popular Stations and Trip...
+
+most commonly used start station :  Columbus Circle / Union Station
+most commonly used end station :  Columbus Circle / Union Station
+most frequent combination stations:  Jefferson Dr & 14th St SW <==> Jefferson Dr & 14th St SW
+
+This took 0.18308258056640625 seconds.
+----------------------------------------
+
+Calculating Trip Duration...
+
+total travel time :  371183985.48400337
+mean travel time :  1237.2799516133446
+
+This took 0.0008454322814941406 seconds.
+----------------------------------------
+
+Calculating User Stats...
+
+*************************
+counts of user types : 
+*************************
+Subscriber    220786
+Customer       79214
+Name: User Type, dtype: int64
+
+Would you like to restart? Enter yes or no.
+no
+[abhijit@localhost bikeshare-2]$
