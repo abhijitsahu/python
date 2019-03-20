@@ -11,7 +11,7 @@ class Movie():
     Parameters
     ----------
     movie_title : str
-        Movie title name 
+        Movie title name
     movie_storyline : str
         brief story for the same movie
     poster_image : str
@@ -22,7 +22,7 @@ class Movie():
     Attributes
     ----------
     title : str
-        Movie title name 
+        Movie title name
     storyline : str
         brief story for the same movie
     poster_image_url : str
@@ -61,4 +61,3 @@ def show_trailer(self):
     None
     """
     webbrowser.open(self.trailer_youtube_url)
-
